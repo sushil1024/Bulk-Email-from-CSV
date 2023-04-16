@@ -26,6 +26,12 @@ Pyinstaller --console --onefile runme.py
 ```
 This will create a single .EXE file for your program and will store in a 'dist' folder present in the same directory as your virtual environment.
 
+# Libraries used
+pyinstaller <br>
+yagmail <br>
+csv <br>
+os <br>
+
 # Note
 The contents of the email are dummy data for security reasons. Change the content to your liking and continue.
 
