@@ -10,11 +10,12 @@ I made this project to help security team in my workplace to send credentials to
 4. Generate .EXE file using Pyinstaller library. Command for the same is mentioned in further description.
 5. Run the program.
 6. The program will ask for path of CSV file to fetch data from and path of Email Attachment. Make sure to not put the path in quotes ("") or ('').
-7. Next, paste the sender's email address and app password.
-8. Confirm the activity and hit enter.
-9. The process will begin and emails sent will be displayed with name and their respective email address in realtime.
-10. There will be a CSV file generated automatically if the program is unable to send data to that particular email, then their entire row with all the data will be stored in another CSV called "failed.csv". This can be used to send details manually or to rerun the program for the faileds users avoiding duplicacy.
-11. A log file will be generated in case anything goes wrong, the exception handler will catch the error and store in the log file to refer later.
+7. The CSV file should contain 'Name', 'Username', 'Password', 'Email Address'. But you can change that from line 43 in runme.py.
+8. Next, paste the sender's email address and app password.
+9. Confirm the activity and hit enter.
+10. The process will begin and emails sent will be displayed with name and their respective email address in realtime.
+11. There will be a CSV file generated automatically if the program is unable to send data to that particular email, then their entire row with all the data will be stored in another CSV called "failed.csv". This can be used to send details manually or to rerun the program for the faileds users avoiding duplicacy.
+12. A log file will be generated in case anything goes wrong, the exception handler will catch the error and store in the log file to refer later.
 
 # Generate .EXE
 1. Save the .py file after making desirable changes(don't forget to add '/n' in the content if required to jump to next line.).
