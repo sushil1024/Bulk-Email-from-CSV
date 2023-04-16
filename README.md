@@ -15,7 +15,7 @@ I made this project to help security team in my workplace to send credentials to
 9. Confirm the activity and hit enter.
 10. The process will begin and emails sent will be displayed with name and their respective email address in realtime.
 11. There will be a CSV file generated automatically if the program is unable to send data to that particular email, then their entire row with all the data will be stored in another CSV called "failed.csv". This can be used to send details manually or to rerun the program for the faileds users avoiding duplicacy.
-12. A log file will be generated in case anything goes wrong, the exception handler will catch the error and store in the log file to refer later.
+12. A log file 'log.txt' will be generated in case anything goes wrong, the exception handler will catch the error and store in the log file to refer later.
 
 # Generate .EXE
 1. Save the .py file after making desirable changes(don't forget to add '/n' in the content if required to jump to next line.).
