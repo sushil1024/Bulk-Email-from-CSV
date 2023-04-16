@@ -6,14 +6,29 @@ I made this project to help security team in my workplace to send credentials to
 # Instructions
 1. Setup sender's email ID (if not done already).
 2. Setup App Password: Don't use your email login credentials for the program since it won't work. Go to account settings > Security > 2-Step Authentication > App Password. Generate and app password and save it somewhere since you can't fetch the same afterwards.
-3. Run the program.
-4. The program will ask for path of CSV file to fetch data from and path of Email Attachment. Make sure to not put the path in quotes ("") or ('').
-5. Next, paste the sender's email address and app password.
-6. Confirm the activity and hit enter.
-7. The process will begin and emails sent will be displayed with name and their respective email address in realtime.
-8. There will be a CSV file generated automatically if the program is unable to send data to that particular email, then their entire row with all the data will be stored in another CSV called "failed.csv". This can be used to send details manually or to rerun the program for the faileds users avoiding duplicacy.
-9. A log file will be generated in case anything goes wrong, the exception handler will catch the error and store in the log file to refer later.
+3. Edit the email content to your liking. Save the file.
+4. Generate .EXE file using Pyinstaller library. Command for the same is mentioned in further description.
+5. Run the program.
+6. The program will ask for path of CSV file to fetch data from and path of Email Attachment. Make sure to not put the path in quotes ("") or ('').
+7. Next, paste the sender's email address and app password.
+8. Confirm the activity and hit enter.
+9. The process will begin and emails sent will be displayed with name and their respective email address in realtime.
+10. There will be a CSV file generated automatically if the program is unable to send data to that particular email, then their entire row with all the data will be stored in another CSV called "failed.csv". This can be used to send details manually or to rerun the program for the faileds users avoiding duplicacy.
+11. A log file will be generated in case anything goes wrong, the exception handler will catch the error and store in the log file to refer later.
+
+# Generate .EXE
+1. Save the .py file after making desirable changes(don't forget to add '/n' in the content if required to jump to next line.).
+2. Create a virtual environment and install 'Pyinstaller' python library in it.
+3. Open cmd and activate your virtual environment where you installed Pyinstaller.
+4. Put the following command in CMD:
+```
+Pyinstaller --console --onefile runme.py
+```
+This will create a single .EXE file for your program and will store in a 'dist' folder present in the same directory as your virtual environment.
+
+# Note
+The contents of the email are dummy data for security reasons. Change the content to your liking and continue.
 
 # Author
-Sushil Waghmare
-sushilwaghmare2048@gmail.com
+Sushil Waghmare <br>
+Email: sushilwaghmare2048@gmail.com
