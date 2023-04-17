@@ -22,7 +22,7 @@ I made this project to help security team in my workplace to send credentials to
 2. This should be your python directory, copy it:
    C:\Users\Sushil\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0
 3. On start menu, search "Environment Variables"
-4. Go to Systrem Variables>Path>Edit>New
+4. Go to System Variables>Path>Edit>New
 5. Now paste the path in the field.
 6. Click OK.
 7. Open CMD in the desired directory you want to create your virtual environment
