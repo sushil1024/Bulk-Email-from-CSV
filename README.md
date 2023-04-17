@@ -17,6 +17,23 @@ I made this project to help security team in my workplace to send credentials to
 11. There will be a CSV file generated automatically if the program is unable to send data to that particular email, then their entire row with all the data will be stored in another CSV called "failed.csv". This can be used to send details manually or to rerun the program for the faileds users avoiding duplicacy.
 12. A log file 'log.txt' will be generated in case anything goes wrong, the exception handler will catch the error and store in the log file to refer later.
 
+# Create Virtual Environment of Python
+1. Install Python from microsoft store (For ex. Python 3.9)
+2. This should be your python directory, copy it:
+   C:\Users\Sushil\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0
+3. On start menu, search "Environment Variables"
+4. Go to Systrem Variables>Path>Edit>New
+5. Now paste the path in the field.
+6. Click OK.
+7. Open CMD in the desired directory you want to create your virtual environment
+8. Type in the commands:
+   python -m venv venv
+9. And then:
+   venv\Scripts\activate
+10. You're now in your virtual environment. Now, install the python libraries mentioned in the description.
+    Eg:
+    pip install pyinstaller
+
 # Generate .EXE
 1. Save the .py file after making desirable changes(don't forget to add '/n' in the content if required to jump to next line.).
 2. Create a virtual environment and install 'Pyinstaller' python library in it.
