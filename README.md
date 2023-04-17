@@ -18,14 +18,14 @@ I made this project to help security team in my workplace to send credentials to
 12. A log file 'log.txt' will be generated in case anything goes wrong, the exception handler will catch the error and store in the log file to refer later.
 
 # Create Virtual Environment of Python
-1. Install Python from microsoft store (For ex. Python 3.9)
+1. Install Python from microsoft store (For ex. Python 3.9).
 2. This should be your python directory, copy it:
    C:\Users\Sushil\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0
-3. On start menu, search "Environment Variables"
-4. Go to System Variables>Path>Edit>New
+3. On start menu, search "Environment Variables".
+4. Go to System Variables>Path>Edit>New.
 5. Now paste the path in the field.
 6. Click OK.
-7. Open CMD in the desired directory you want to create your virtual environment
+7. Open CMD in the desired directory you want to create your virtual environment in.
 8. Type in the commands:
    python -m venv venv
 9. And then:
