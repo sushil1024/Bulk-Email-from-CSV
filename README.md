@@ -1,8 +1,6 @@
 # Send Bulk Email and fetch data from CSV.
 Send bulk email and fetch contents from CSV.
 
-I made this project to help security team in my workplace to send credentials to all employees of the company (~700) personally with attachment of how to sign up.
-
 # Instructions
 1. Setup sender's email ID (if not done already).
 2. Setup App Password: Don't use your email login credentials for the program since it won't work. Go to account settings > Security > 2-Step Authentication > App Password. Generate and app password and save it somewhere since you can't fetch the same afterwards.
