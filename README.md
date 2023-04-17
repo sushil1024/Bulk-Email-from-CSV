@@ -35,7 +35,7 @@ I made this project to help security team in my workplace to send credentials to
     pip install pyinstaller
 
 # Generate .EXE
-1. Save the .py file after making desirable changes(don't forget to add '/n' in the content if required to jump to next line.).
+1. Save the .py file after making desirable changes(don't forget to add '\n' in the content if required to jump to next line.).
 2. Create a virtual environment and install 'Pyinstaller' python library in it.
 3. Open cmd and activate your virtual environment where you installed Pyinstaller.
 4. Put the following command in CMD:
